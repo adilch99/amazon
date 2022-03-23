@@ -1,0 +1,93 @@
+.header {
+  position: relative;
+  width: 100%;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+  padding: 10px;
+  z-index: 999;
+}
+
+.header_logo {
+  width: 130px;
+  display: flex;
+  align-items: center;
+}
+
+.header_logo img {
+  width: 100%;
+}
+
+.header_logo img {
+  width: 100%;
+}
+
+.header_search {
+  display: flex;
+  flex: 1;
+  margin: auto 1rem;
+  height: 32px;
+}
+
+.header_search input {
+  border: none;
+  background-color: #fff;
+  outline: none;
+  width: 100%;
+  padding: 8px;
+}
+
+.header_search svg {
+  background-color: #cd9042;
+  padding: 3px;
+  height: 32px;
+  width: 32px;
+}
+
+.header_links {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.header_links .signin {
+  margin: auto 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.header_links .orders {
+  margin: auto 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.header_links .prime {
+  margin: auto 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.header_links .basket {
+  margin: auto 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.header_links .basket p {
+  margin-left: 5px;
+}
+
+.header_links .basket svg {
+  color: #fff;
+}
+
+.header_links {
+  font-weight: 100;
+}

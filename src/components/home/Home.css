@@ -1,0 +1,24 @@
+.home {
+}
+
+.home_top {
+  width: 100%;
+  z-index: -1;
+}
+
+.home_top img {
+  width: 100%;
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  margin-top: -80px;
+  z-index: -1;
+}
+
+.home .products_container {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: -120px;
+}
+
+.home .products_row {
+  display: flex;
+}

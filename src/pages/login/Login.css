@@ -1,0 +1,65 @@
+.login_page {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.login_img {
+  width: 150px;
+  margin: auto;
+}
+
+.login_img img {
+  width: 100%;
+}
+
+.login_form {
+  width: 280px;
+  padding: 1rem;
+  margin: 2rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.login_form input {
+  border: 1px solid black;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 3px;
+  height: 30px;
+  padding: 5px;
+}
+
+.login_btn {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #cd9043;
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.login_create {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: darkgray;
+  width: 100%;
+  padding: 5px;
+  margin-top: 12px;
+  color: black;
+  border-radius: 5px;
+}
+
+.login_agreement {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.login_create:hover,
+.login_btn:hover {
+  opacity: 0.8;
+}
+.login_create:active,
+.login_btn:active {
+  transform: scale(1.1);
+}
